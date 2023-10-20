@@ -46,6 +46,14 @@ git push -u origin main
 
 This let's push changes to remote repository.
 
+**Pull**
+
+```sh
+git pull
+```
+
+This let's us pull changes from a remote repository.
+
 **Branch**
 
 ```sh
