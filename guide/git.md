@@ -29,3 +29,27 @@ git commit -m "first commit"
 ```
 
 Commits the changes we made to the git history. the `-m "first commit"` is to specify a commit message.
+
+**Remote**
+
+```sh
+git remote add origin git@github.com/example/example.git
+```
+
+Adds a remote location where we can push and pull our repository.
+
+**Push**
+
+```sh
+git push -u origin main
+```
+
+This let's push changes to remote repository.
+
+**Branch**
+
+```sh
+git branch
+```
+
+Allows you to change a code and push changes within a repository without affecting other branches.
