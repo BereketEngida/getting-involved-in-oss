@@ -61,3 +61,19 @@ git branch
 ```
 
 Allows you to change a code and push changes within a repository without affecting other branches.
+
+**Merge**
+
+```sh
+git merge
+```
+
+Combines changes from one branch into another by creating a new merge commit.
+
+**Rebase**
+
+```sh
+git rebase
+```
+
+It rearranges the commit history of the branch you're currently on to make it look like it was started from the most recent commit of another branch.
